@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer"
 import HeroSection from "./components/Hero-section/HeroSection"
 import Navbar from "./components/Navbar/Navbar"
 import Project from "./components/Projects/Project"
-import Work from "./components/work/work"
+import Work from "./components/Work/Allworks.jsx"
 import Details from "./components/DetailProject/Details"
 
 

@@ -1,5 +1,5 @@
 import './work.scss'
-const Work = () => {
+const Allworks = () => {
   return (
     <div className='work'>
         <div className="line"></div>
@@ -19,4 +19,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default Allworks
