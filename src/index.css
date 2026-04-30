@@ -1,0 +1,36 @@
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    color: #fefbfb;
+   
+    
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Old Edge / IE */
+body {
+  -ms-overflow-style: none;
+}
+
+main{
+  width: 100vw;
+  padding-top: 1rem;
+  overflow-x: hidden;
+}

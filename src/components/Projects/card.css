@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Antonio";
+  src: url("../../assets/Antonio-ExtraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter1";
+  src: url("../../assets/Inter_18pt-Regular.ttf");
+}
+.cards {
+  width: 100%;
+  height: 100%;
+  padding-inline: 1.5rem;
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.cards .card .left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cards .card .left h3 {
+  font-family: Antonio;
+  font-size: 2.5rem;
+  font-weight: 100;
+  transform: scaleY(1.12);
+  letter-spacing: -0.1rem;
+}
+.cards .card .left p {
+  font-family: Inter1;
+  color: #6e6e6e;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.cards .card .left .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: 0.75rem;
+}
+.cards .card .left .tags .tag {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #111111;
+  color: rgb(204, 204, 204);
+  padding-inline: 1.2rem;
+  padding-block: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cards .card svg {
+  width: 3rem;
+  position: absolute;
+  bottom: 3%;
+  right: 4%;
+}
+.cards .card .image {
+  width: 100%;
+  height: 28vh;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.cards .card .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 730px) {
+  .cards {
+    padding-inline: 2rem;
+    padding-bottom: 10rem;
+  }
+  .cards .card {
+    margin-top: 10rem;
+  }
+  .cards .card h3 {
+    font-size: 3.7rem;
+  }
+  .cards .card svg {
+    width: 4rem;
+  }
+  .cards .card .image {
+    height: 50vh;
+  }
+}
+@media (min-width: 1200px) {
+  .cards {
+    padding-inline: 4rem;
+  }
+  .cards .card {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 4rem;
+  }
+  .cards .card .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    gap: 1rem;
+  }
+  .cards .card .left h3 {
+    font-size: 4rem;
+  }
+  .cards .card svg {
+    width: 4.6rem;
+    left: 1%;
+    top: 55%;
+  }
+  .cards .card svg path {
+    transition: stroke 0.5s ease;
+  }
+  .cards .card svg:hover {
+    transform: rotate(50deg); /* X-axis pe straight */
+  }
+  .cards .card svg:hover path {
+    stroke: rgb(202, 255, 52); /* hover pe stroke color */
+  }
+  .cards .card .image {
+    max-width: 45%;
+    height: 70vh;
+  }
+  .cards .card .image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}/*# sourceMappingURL=card.css.map */

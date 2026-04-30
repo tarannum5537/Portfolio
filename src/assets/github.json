@@ -1,0 +1,40 @@
+[
+   {
+    "id": 1,
+    "image": "/project.jpeg",
+    "title": "FLAVORO",
+    "desc": "A modern food & snacks ordering platform with dynamic product listings, API-driven data handling,and a fully responsive React & SCSS interface.",
+    "desc2":"Flavoro is a modern food ordering web application built using React and Redux, allowing users to browse products, manage cart state efficiently, and perform seamless CRUD operations with a mock backend using JSON Server. The app focuses on real-time state synchronization, smooth UI interactions, and scalable frontend architecture.",
+    "tags": ["React", "Redux Toolkit", "Tailwind CSS", "Json Server", "HTML"],
+    "repoLink": "https://github.com/tarannum5537/Flavoro",
+    "demoLink": "https://flavoro-mu.vercel.app/",
+    "Outcome1": "Built real-time cart sync using Redux for smooth state management.",
+    "Outcome2": "Integrated a mock REST API with JSON Server to handle complete CRUD operations and simulate real backend workflows.",
+    "Outcome3": "Enhanced user experience with fast, interactive UI updates."
+  },
+  {
+    "id": 2,
+    "image": "/project2.png",
+    "title": "REJOUICE",
+    "desc": "A modern animation-focused web experience featuring smooth scrolling, high-performance transitions, and visually engaging interactions built with advanced frontend animation libraries.",
+    "desc2":"A modern animation-driven web experience designed with smooth scrolling, high-performance transitions, and visually rich interactions. Built using GSAP and Locomotive Scroll, the project focuses on delivering seamless motion design and an immersive user experience inspired by contemporary creative websites.",
+    "tags": ["HTML","Javascript", "SCSS", "GSAP", "Locomotive Scroll"],
+    "repoLink": "https://github.com/tarannum5537/rejoiuce",
+    "demoLink": "https://rejoiuce-website.vercel.app/",
+    "Outcome1": "Developed smooth scroll-based animations using GSAP & Locomotive Scroll for an engaging user experience.",
+    "Outcome2": "Delivered visually rich UI with seamless motion transitions",
+    "Outcome3": "Enhanced user engagement through interactive animation design"
+  },{
+  "id": 3,
+  "image": "/project3.png",
+  "title": "IMAGE EDITOR",
+  "desc": "A browser-based image editing tool enabling real-time manipulation with interactive controls and custom JavaScript logic.",
+  "desc2": "A dynamic image editing web application developed using pure JavaScript, allowing users to apply real-time filters, adjustments, and transformations. The project focuses on implementing core image processing logic from scratch while maintaining a responsive and user-friendly interface for seamless interaction.",
+  "tags": ["HTML", "JavaScript", "SCSS"],
+  "repoLink": "https://github.com/tarannum5537/Image-Editor",
+  "demoLink": "https://image-editor-brown.vercel.app/",
+  "Outcome1": "Built real-time image editing features using pure JavaScript logic",
+  "Outcome2": "Implemented filters, adjustments, and transformation controls for dynamic manipulation",
+  "Outcome3": "Designed a responsive and intuitive UI for smooth user interaction"
+}
+]

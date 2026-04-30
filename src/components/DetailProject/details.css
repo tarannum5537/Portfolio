@@ -1,0 +1,327 @@
+@font-face {
+  font-family: "Font";
+  src: url("../../assets/Antonio-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Plus";
+  src: url("../../assets/PlusJakartaSans-Light.ttf");
+}
+@font-face {
+  font-family: "Plus2";
+  src: url("../../assets/PlusJakartaSans-Medium.ttf");
+}
+.detail {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  padding-inline: 1.3rem;
+  margin-top: 130px;
+}
+.detail .back {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  margin-top: -3rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+.detail .upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.detail .upper h1 {
+  font-family: "Font";
+  font-family: 200;
+  color: #fff;
+  font-size: 5.5rem;
+  line-height: 1.1;
+  letter-spacing: -9;
+}
+.detail .upper .tag {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.detail .upper .tag h4 {
+  font-family: "Plus2";
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: -0.04rem;
+}
+.detail .upper .tag .front,
+.detail .upper .tag .web {
+  width: -moz-fit-content;
+  width: fit-content;
+  color: black;
+  padding: 0.5rem 1.3rem;
+  border-radius: 1.5rem;
+}
+.detail .upper .tag .web {
+  background-color: rgb(202, 255, 52);
+}
+.detail .upper .tag .front {
+  background-color: #f133ff;
+}
+.detail .img {
+  width: 100%;
+  height: 18vh;
+  margin-top: 3rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+}
+.detail .img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 0.75rem;
+}
+.detail .desc {
+  font-family: "Plus";
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.detail .desc h3 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+}
+.detail .desc p {
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.detail .tech {
+  font-family: "Plus";
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.detail .tech h3 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+}
+.detail .tech .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: 0.75rem;
+}
+.detail .tech .tags .tag {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #111111;
+  color: rgb(204, 204, 204);
+  padding-inline: 1.2rem;
+  padding-block: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.detail .link {
+  font-family: "Plus";
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.detail .link h3 {
+  font-size: 1.3rem;
+  color: #fff;
+  font-weight: 600;
+}
+.detail .link .links {
+  display: flex;
+  gap: 2rem;
+}
+.detail .link .links .git,
+.detail .link .links .demo {
+  display: flex;
+  align-items: center;
+}
+.detail .link .links .git a,
+.detail .link .links .demo a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  /* Add transition for smooth scaling */
+}
+.detail .link .links .git img,
+.detail .link .links .demo img {
+  width: 1.5rem;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-weight: 300;
+  margin-left: 0.3rem;
+}
+.detail .git img,
+.detail .demo img {
+  transition: transform 0.3s ease;
+}
+.detail .links .git a:hover,
+.detail .links .demo a:hover {
+  color: rgb(202, 255, 52);
+}
+.detail .links .git:hover img,
+.detail .links .demo:hover img {
+  scale: 1.2;
+}
+.detail .outcome {
+  margin-top: 4rem;
+}
+.detail .outcome h2 {
+  font-family: "Plus";
+  font-size: 2.3rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+.detail .outcome .box {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+.detail .outcome .box .box1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #163106;
+  color: #b6ff2e;
+  text-align: start;
+  padding: 1.7rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.detail .outcome .box .box1 p {
+  font-family: "Plus2";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.detail .outcome .box .box2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #200028;
+  color: #ff3edb;
+  text-align: start;
+  padding: 1.7rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.detail .outcome .box .box2 p {
+  font-family: "Plus2";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.detail .outcome .box .box3 {
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #002b27;
+  color: #37ffe1;
+  text-align: start;
+  padding: 1.7rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.detail .outcome .box .box3 p {
+  font-family: "Plus2";
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+@media (min-width: 730px) {
+  .detail {
+    padding-inline: 2.5rem;
+  }
+  .detail .back {
+    margin-left: 1rem;
+  }
+  .detail .img {
+    width: 100%;
+    height: 40vh;
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .detail .upper h1 {
+    font-size: 9rem;
+    letter-spacing: -0.5rem;
+    font-weight: 500;
+  }
+  .detail .back {
+    margin-left: 3rem;
+  }
+  .detail .img {
+    max-width: 83%;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+  .detail .bottom {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .detail .bottom .desc {
+    flex-direction: row;
+    gap: 6.4rem;
+  }
+  .detail .bottom .tech {
+    flex-direction: row;
+    gap: 7.3rem;
+  }
+  .detail .bottom .link {
+    flex-direction: row;
+    gap: 10.5rem;
+  }
+  .detail .outcome {
+    margin-top: 6rem;
+  }
+  .detail .outcome h2 {
+    text-align: center;
+  }
+  .detail .outcome .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 7rem;
+  }
+  .detail .outcome .box .box1 {
+    width: 400px;
+  }
+  .detail .outcome .box .box1 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+  }
+  .detail .outcome .box .box2 {
+    width: 400px;
+  }
+  .detail .outcome .box .box2 p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+  }
+  .detail .outcome .box .box3 {
+    width: 400px;
+  }
+  .detail .outcome .box .box3 p {
+    font-size: 1.15rem;
+    font-weight: 400;
+    text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+  }
+}/*# sourceMappingURL=details.css.map */

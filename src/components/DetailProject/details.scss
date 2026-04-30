@@ -1,0 +1,370 @@
+@font-face {
+  font-family: "Font";
+  src: url("../../assets/Antonio-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Plus";
+  src: url("../../assets/PlusJakartaSans-Light.ttf");
+}
+@font-face {
+  font-family: "Plus2";
+  src: url("../../assets/PlusJakartaSans-Medium.ttf");
+}
+
+.detail {
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  padding-inline: 1.3rem;
+  margin-top: 130px;
+  
+  //
+
+  .back{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    &:hover {
+      color: rgb(202, 255, 52);
+    }
+
+  }
+
+  .upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h1 {
+      font-family: "Font";
+      font-family: 200;
+      color: #fff;
+      font-size: 5.5rem;
+      line-height: 1.1;
+      letter-spacing: -9;
+    }
+
+    .tag {
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+
+      h4 {
+        font-family: "Plus2";
+        font-size: 1.1rem;
+        font-weight: 500;
+        letter-spacing: -0.04rem;
+      }
+
+      .front,
+      .web {
+        width: fit-content;
+        color: black;
+        padding: 0.5rem 1.3rem;
+        border-radius: 1.5rem;
+      }
+
+      .web {
+        background-color: rgb(202, 255, 52);
+      }
+
+      .front {
+        background-color: #f133ff;
+      }
+    }
+  }
+
+  .img {
+    width: 100%;
+    height: 18vh;
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius: 0.75rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 0.75rem;
+    }
+  }
+
+  .desc {
+    font-family: "Plus";
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    h3 {
+      font-size: 1.3rem;
+      color: #fff;
+      font-weight: 600;
+    }
+    p {
+      font-size: 0.9rem;
+      color: #fff;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+  }
+
+  .tech {
+    font-family: "Plus";
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    h3 {
+      font-size: 1.3rem;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding-top: 0.75rem;
+      .tag {
+        width: fit-content;
+        background-color: #111111;
+        color: rgb(204, 204, 204);
+        padding-inline: 1.2rem;
+        padding-block: 0.4rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .link {
+    font-family: "Plus";
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    h3 {
+      font-size: 1.3rem;
+      color: #fff;
+      font-weight: 600;
+    }
+
+    .links {
+      display: flex;
+      gap: 2rem;
+      .git,
+      .demo {
+        display: flex;
+        align-items: center;
+
+        a {
+          text-decoration: none;
+          color: white;
+          font-size: 1.2rem;
+          /* Add transition for smooth scaling */
+        }
+        img {
+          width: 1.5rem;
+          aspect-ratio: 1/1;
+          object-fit: cover;
+          font-weight: 300;
+          margin-left: 0.3rem;
+        }
+      }
+    }
+  }
+
+  .git img,
+  .demo img {
+    transition: transform 0.3s ease;
+  }
+
+  .links .git a:hover,
+  .links .demo a:hover {
+    color: rgb(202, 255, 52);
+  }
+  .links .git:hover img,
+  .links .demo:hover img {
+    scale: 1.2;
+  }
+
+  .outcome {
+    margin-top: 4rem;
+    h2 {
+      font-family: "Plus";
+      font-size: 2.3rem;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 0.05rem;
+    }
+
+    .box {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding-bottom: 2rem;
+
+      .box1 {
+        width: fit-content;
+        background-color: #163106;
+        color: #b6ff2e;
+        text-align: start;
+        padding: 1.7rem;
+        border-radius: 1rem;
+        position: relative;
+
+        p {
+          font-family: "Plus2";
+          font-size: 1.3rem;
+          font-weight: 500;
+        }
+      }
+
+      .box2 {
+        width: fit-content;
+        background-color: #200028;
+        color: #ff3edb;
+        text-align: start;
+        padding: 1.7rem;
+        border-radius: 1rem;
+        position: relative;
+
+        p {
+          font-family: "Plus2";
+          font-size: 1.3rem;
+          font-weight: 500;
+        }
+      }
+
+      .box3 {
+        width: fit-content;
+        background-color: #002b27;
+        color: #37ffe1;
+        text-align: start;
+        padding: 1.7rem;
+        border-radius: 1rem;
+        position: relative;
+
+        p {
+          font-family: "Plus2";
+          font-size: 1.3rem;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 730px) {
+  .detail {
+    padding-inline: 2.5rem;
+
+    .back{
+      margin-left: 1rem;
+    }
+
+    .img {
+      width: 100%;
+      height: 40vh;
+      margin-top: 3rem;
+      background-color: #fff;
+      border-radius: 0.75rem;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .detail {
+    .upper {
+      h1 {
+        font-size: 9rem;
+        letter-spacing: -0.5rem;
+        font-weight: 500;
+      }
+    }
+.back{
+      margin-left:3rem;
+    }
+    .img {
+      max-width: 83%;
+      height: 60vh;
+      margin: 0 auto;
+      margin-top: 6rem;
+    }
+
+    .bottom {
+      width: 700px;
+      margin: 0 auto;
+
+      .desc {
+        flex-direction: row;
+        gap: 6.4rem;
+      }
+
+      .tech{
+        flex-direction: row;
+        gap: 7.3rem;
+      }
+
+      .link {
+        flex-direction: row;
+        gap: 10.5rem;
+      }
+    }
+
+    .outcome {
+      margin-top: 6rem;
+      h2 {
+        text-align: center;
+      }
+      .box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 7rem;
+
+        .box1 {
+          width: 400px;
+          
+          p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+          }
+        }
+
+          .box2 {
+          width: 400px;
+          p {
+            font-size: 1.2rem;
+            font-weight: 400;
+            text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+          }
+        }
+          .box3 {
+          width: 400px;
+          p {
+            font-size: 1.15rem;
+            font-weight: 400;
+            text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
+          }
+        }
+          
+      }
+    }
+  }
+}
