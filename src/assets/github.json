@@ -1,7 +1,7 @@
 [
    {
     "id": 1,
-    "image": "/project.jpeg",
+    "image": "/project.webp",
     "title": "FLAVORO",
     "desc": "A modern food & snacks ordering platform with dynamic product listings, API-driven data handling,and a fully responsive React & SCSS interface.",
     "desc2":"Flavoro is a modern food ordering web application built using React and Redux, allowing users to browse products, manage cart state efficiently, and perform seamless CRUD operations with a mock backend using JSON Server. The app focuses on real-time state synchronization, smooth UI interactions, and scalable frontend architecture.",
@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "image": "/project2.png",
+    "image": "/project2.webp",
     "title": "REJOUICE",
     "desc": "A modern animation-focused web experience featuring smooth scrolling, high-performance transitions, and visually engaging interactions built with advanced frontend animation libraries.",
     "desc2":"A modern animation-driven web experience designed with smooth scrolling, high-performance transitions, and visually rich interactions. Built using GSAP and Locomotive Scroll, the project focuses on delivering seamless motion design and an immersive user experience inspired by contemporary creative websites.",
@@ -26,7 +26,7 @@
     "Outcome3": "Enhanced user engagement through interactive animation design"
   },{
   "id": 3,
-  "image": "/project3.png",
+  "image": "/project3.webp",
   "title": "IMAGE EDITOR",
   "desc": "A browser-based image editing tool enabling real-time manipulation with interactive controls and custom JavaScript logic.",
   "desc2": "A dynamic image editing web application developed using pure JavaScript, allowing users to apply real-time filters, adjustments, and transformations. The project focuses on implementing core image processing logic from scratch while maintaining a responsive and user-friendly interface for seamless interaction.",

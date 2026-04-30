@@ -29,12 +29,19 @@
       text-align: center;
       gap: 0.7rem;
 
-
       .logo {
         width: 3rem;
+        display: flex;
+        justify-content: center;
         aspect-ratio: 1/1;
         border-radius: 0.5rem;
         background-color: #fff;
+
+        img {
+          width: 100%;
+          object-position: center;
+          object-fit: contain;
+        }
       }
 
       h3 {
@@ -46,7 +53,6 @@
     }
 
     .right {
-      
       display: flex;
       flex-direction: column;
       gap: 0.38rem;
@@ -71,20 +77,14 @@
 
 @media (min-width: 720px) {
   .work {
-   width: 710px;
-  margin: 0 auto;
-
-   
-    
-   
-    
+    width: 710px;
+    margin: 0 auto;
 
     .work1 {
       padding-block: 0.8rem;
       padding-bottom: 1.5rem;
       display: flex;
       flex-direction: row;
-     
 
       justify-content: space-between;
 
@@ -92,29 +92,32 @@
         gap: 0.5rem;
         align-items: center;
 
-        .logo{
-            width: 3.7rem;
+        .logo {
+          width: 3.7rem;
+          img {
+            width: 80%;
+            object-position: center;
+            object-fit: cover;
+          }
         }
 
         h3 {
           font-size: 3.2rem;
           font-weight: 100;
-           transform: scaleY(1.25);
+          transform: scaleY(1.25);
         }
       }
 
       .right {
-       gap: 1rem;
-       align-items: end;
-       
-      
+        gap: 1rem;
+        align-items: end;
 
         h3 {
           font-size: 2.3rem;
         }
 
-        .second{
-            font-weight: 500;
+        .second {
+          font-weight: 500;
         }
       }
     }
@@ -122,21 +125,15 @@
 }
 @media (min-width: 1200px) {
   .work {
-   width: 1150px;
-  margin: 0 auto;
-  padding-top: rem;
-
-   
-    
-   
-    
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: rem;
 
     .work1 {
       padding-block: 1rem;
       padding-bottom: 1.5rem;
       display: flex;
       flex-direction: row;
-     
 
       justify-content: space-between;
 
@@ -144,40 +141,38 @@
         gap: 0.8rem;
         align-items: center;
 
-        .logo{
-            width: 5rem;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            aspect-ratio: 1/1;
-            margin-top: 0.7rem;
+        .logo {
+          width: 5rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          aspect-ratio: 1/1;
+          margin-top: 0.7rem;
 
-            img{
-                width: 80%;
-              object-position: center;
-                object-fit: cover;
-            }
+          img {
+            width: 80%;
+            object-position: center;
+            object-fit: cover;
+          }
         }
 
         h3 {
           font-size: 5rem;
           font-weight: 100;
-           transform: scaleY(1.25);
+          transform: scaleY(1.25);
         }
       }
 
       .right {
-       gap: 1.1rem;
-       align-items: end;
-       
-      
+        gap: 1.1rem;
+        align-items: end;
 
         h3 {
           font-size: 2.5rem;
         }
 
-        .second{
-            font-weight: 500;
+        .second {
+          font-weight: 500;
         }
       }
     }

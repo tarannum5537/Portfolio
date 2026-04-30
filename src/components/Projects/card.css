@@ -13,6 +13,7 @@
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
+  gap: 7rem;
 }
 .cards .card {
   display: flex;
@@ -96,6 +97,9 @@
 @media (min-width: 1200px) {
   .cards {
     padding-inline: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
   }
   .cards .card {
     flex-direction: row;
@@ -121,7 +125,7 @@
     transition: stroke 0.5s ease;
   }
   .cards .card svg:hover {
-    transform: rotate(50deg); /* X-axis pe straight */
+    transform: rotate(45deg); /* X-axis pe straight */
   }
   .cards .card svg:hover path {
     stroke: rgb(202, 255, 52); /* hover pe stroke color */
@@ -129,11 +133,12 @@
   .cards .card .image {
     max-width: 45%;
     height: 70vh;
+    border-radius: 2rem;
   }
   .cards .card .image img {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }/*# sourceMappingURL=card.css.map */

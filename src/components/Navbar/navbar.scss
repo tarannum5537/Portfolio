@@ -6,6 +6,7 @@
 .navbar {
   width: 90%;
   height: 4rem;
+
   background-color: #0000005c;
   backdrop-filter: blur(10px);
   border: 1px solid #393939;
@@ -13,7 +14,7 @@
   position: fixed;
   left: 0;
   right: 0;
-  top: 3;
+  top: 2rem;
   z-index: 1000;
   margin: 0 auto;
   font-family: "Inter";
@@ -43,7 +44,7 @@
     nav {
       display: flex;
       align-items: center;
-      gap: 1rem;
+      gap: 2rem;
 
       a {
         text-decoration: none;
@@ -110,7 +111,7 @@
 @media screen and (max-width: 998px) {
   .expand {
     width: 90%;
-    height: 14rem;
+    height: 17rem;
     background-color: #0000005c;
     backdrop-filter: blur(10px);
     border: 1px solid #393939;

@@ -15,6 +15,7 @@
   padding-top: 4rem;
   display: flex;
   flex-direction: column;
+  gap: 7rem;
   
 
   .card {
@@ -110,6 +111,12 @@
 @media (min-width: 1200px) {
   .cards {
     padding-inline: 4rem;
+    display: flex;
+  flex-direction: column;
+  gap: 0;
+
+ 
+   
     .card {
       flex-direction: row;
       align-items: flex-start;
@@ -145,15 +152,16 @@
       }
 
       .image {
-        max-width: 45%;
-        height: 70vh;
+  max-width: 45%;
+  height: 70vh;
+  border-radius: 2rem;
 
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
     }
   }
 }

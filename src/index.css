@@ -10,6 +10,7 @@ body {
     width: 100%;
     background: #000;
     color: #fefbfb;
+
    
     
 }
@@ -31,6 +32,10 @@ body {
 
 main{
   width: 100vw;
-  padding-top: 1rem;
+
   overflow-x: hidden;
+
+  .container{
+   padding-top:2rem
+  }
 }

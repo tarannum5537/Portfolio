@@ -30,9 +30,18 @@
 }
 .work .work1 .left .logo {
   width: 3rem;
+  display: flex;
+  justify-content: center;
   aspect-ratio: 1/1;
   border-radius: 0.5rem;
   background-color: #fff;
+}
+.work .work1 .left .logo img {
+  width: 100%;
+  -o-object-position: center;
+     object-position: center;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .work .work1 .left h3 {
   font-weight: 580;
@@ -77,6 +86,13 @@
   .work .work1 .left .logo {
     width: 3.7rem;
   }
+  .work .work1 .left .logo img {
+    width: 80%;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .work .work1 .left h3 {
     font-size: 3.2rem;
     font-weight: 100;
@@ -112,7 +128,18 @@
   }
   .work .work1 .left .logo {
     width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     aspect-ratio: 1/1;
+    margin-top: 0.7rem;
+  }
+  .work .work1 .left .logo img {
+    width: 80%;
+    -o-object-position: center;
+       object-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .work .work1 .left h3 {
     font-size: 5rem;

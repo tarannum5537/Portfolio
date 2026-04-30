@@ -14,27 +14,26 @@
 
 .detail {
   width: 100%;
-  height: 100vh;
+  padding-block: 5rem;
+
+
   background-color: #000000;
   padding-inline: 1.3rem;
-  margin-top: 130px;
-  
-  //
 
-  .back{
+  
+
+  .back {
     background: none;
     border: none;
     color: #fff;
     font-size: 1.2rem;
-    margin-left: 1rem;
-    margin-top: -3rem;
+    margin-top: 1rem; /* ✅ normal */
     margin-bottom: 2rem;
     cursor: pointer;
 
     &:hover {
       color: rgb(202, 255, 52);
     }
-
   }
 
   .upper {
@@ -272,8 +271,9 @@
 @media (min-width: 730px) {
   .detail {
     padding-inline: 2.5rem;
+    margin-top: 80px;
 
-    .back{
+    .back {
       margin-left: 1rem;
     }
 
@@ -296,8 +296,8 @@
         font-weight: 500;
       }
     }
-.back{
-      margin-left:3rem;
+    .back {
+      margin-left: 3rem;
     }
     .img {
       max-width: 83%;
@@ -315,7 +315,7 @@
         gap: 6.4rem;
       }
 
-      .tech{
+      .tech {
         flex-direction: row;
         gap: 7.3rem;
       }
@@ -339,7 +339,7 @@
 
         .box1 {
           width: 400px;
-          
+
           p {
             font-size: 1.2rem;
             font-weight: 400;
@@ -347,7 +347,7 @@
           }
         }
 
-          .box2 {
+        .box2 {
           width: 400px;
           p {
             font-size: 1.2rem;
@@ -355,7 +355,7 @@
             text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
           }
         }
-          .box3 {
+        .box3 {
           width: 400px;
           p {
             font-size: 1.15rem;
@@ -363,7 +363,6 @@
             text-shadow: 0 0 8px rgba(166, 255, 26, 0.18);
           }
         }
-          
       }
     }
   }

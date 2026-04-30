@@ -4,8 +4,13 @@ import { useNavigate, useParams } from 'react-router-dom'
 import Data  from '../../assets/github.json'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import { useEffect } from 'react'
 
 const Details = () => {
+
+    useEffect(() => {
+    window.scrollTo(0, 0); // ✅ Page open hone pe top pe le jaao
+  }, []);
 
      const {id} = useParams()
      const navigate = useNavigate()

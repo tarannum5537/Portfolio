@@ -61,7 +61,7 @@ useGSAP(() => {
         <img className="icon icon1" src="./about-img/img1.svg" alt="" />
         <img className="icon icon2" src="./about-img/img2.svg" alt="" />
         <div className="img" ref={imgRef}>
-          <img src="./about-img/about-img.png" alt="" />
+          <img src="./about-img/about-img.webp" alt="" />
         </div>
       </div>
       <div className="about-txt">

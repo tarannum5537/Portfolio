@@ -17,6 +17,7 @@ const Footer = () => {
         scrollTrigger:{ 
           trigger:".footer",
            start:"top 80%",
+           
     
             toggleActions:"restart none none none" 
           }

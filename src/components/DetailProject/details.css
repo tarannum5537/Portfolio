@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Font";
   src: url("../../assets/Antonio-Light.ttf") format("truetype");
@@ -12,20 +13,21 @@
 }
 .detail {
   width: 100%;
-  height: 100vh;
+  padding-block: 5rem;
   background-color: #000000;
   padding-inline: 1.3rem;
-  margin-top: 130px;
 }
 .detail .back {
   background: none;
   border: none;
   color: #fff;
   font-size: 1.2rem;
-  margin-left: 1rem;
-  margin-top: -3rem;
+  margin-top: 1rem; /* ✅ normal */
   margin-bottom: 2rem;
   cursor: pointer;
+}
+.detail .back:hover {
+  color: rgb(202, 255, 52);
 }
 .detail .upper {
   display: flex;
@@ -245,6 +247,7 @@
 @media (min-width: 730px) {
   .detail {
     padding-inline: 2.5rem;
+    margin-top: 80px;
   }
   .detail .back {
     margin-left: 1rem;
