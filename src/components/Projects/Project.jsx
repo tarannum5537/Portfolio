@@ -85,7 +85,7 @@ useGSAP(() => {
               </Link>
 
               <div className="image">
-                <img loading="lazy" src={data.image} alt="" />
+                <img  src={data.image} alt="" />
               </div>
             </div>
           
