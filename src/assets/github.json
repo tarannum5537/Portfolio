@@ -3,7 +3,7 @@
     "id": 1,
     "image": "/project.webp",
     "title": "FLAVORO",
-    "desc": "A modern food & snacks ordering platform with dynamic product listings, API-driven data handling,and a fully responsive React & SCSS interface.",
+    "desc": "A modern food & snacks ordering platform with dynamic product listings, API-driven data handling,and a fully responsive React & Tailwind CSS interface.",
     "desc2":"Flavoro is a modern food ordering web application built using React and Redux, allowing users to browse products, manage cart state efficiently, and perform seamless CRUD operations with a mock backend using JSON Server. The app focuses on real-time state synchronization, smooth UI interactions, and scalable frontend architecture.",
     "tags": ["React", "Redux Toolkit", "Tailwind CSS", "Json Server", "HTML"],
     "repoLink": "https://github.com/tarannum5537/Flavoro",
